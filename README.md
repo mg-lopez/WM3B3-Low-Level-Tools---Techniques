@@ -1,2 +1,5 @@
-# WM3B3-Low-Level-Tools---Techniques
-Year 3 - 74%
+# WM3B3-Low-Level-Tools-&-Techniques (Year 3)
+Modern programming approaches use high level constructs which abstract away the system's architecture. These high levels of abstraction use code generation programs such as compilers and assemblers to take the human author's input, and produce code that will execute as output. The modern programmer rarely needs to consider the underlying architecture of the machine that will execute the code.
+There are situations where, rather than creating an executable from source, you need to go in the opposite direction; you need to infer what the source code might look like by analysing the executable. Perhaps you have some potential malware; or perhaps you perhaps you have to analyse and exploit a vulnerability which an executable might have. Either way, you want to know what the program will do, were it to run on your system.
+In order to reverse engineer an executable, you need to understand the typical idioms that an operating system, architecture and code generation programs will adopt to convert high level constructs into low level executables.
+In addition, if the executable is malware, then it is likely the authors will have used some obfuscation in order to make the analysis more difficult. Under these circumstances you need to understand the typical idioms of obfuscation.
